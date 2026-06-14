@@ -10,8 +10,6 @@ instrumentos interactivos:
 - **λ = h / p** — relación de de Broglie
 - **Δx · Δp ≥ ħ / 2** — principio de incertidumbre de Heisenberg
 
-![Portada de ONDA](capturas/cap-hero.png)
-
 ---
 
 ## Cómo ejecutar la aplicación
@@ -37,8 +35,6 @@ npm run preview  # sirve la versión construida → http://localhost:4173
 
 ### 1 · Calculadora de de Broglie
 
-![Calculadora de Broglie](capturas/cap-broglie.png)
-
 - Ingresa **masa** (kg) y **velocidad** (m/s), o cambia al modo
   **momentum directo** para ingresar `p` (kg·m/s).
 - Se acepta notación científica: `9.109e-31` equivale a 9,109 × 10⁻³¹.
@@ -58,8 +54,6 @@ npm run preview  # sirve la versión construida → http://localhost:4173
 
 ### 2 · Principio de incertidumbre
 
-![Principio de incertidumbre](capturas/cap-incertidumbre.png)
-
 - Mueve el **deslizador de Δx** (de 10⁻¹² m, escala nuclear, a 10⁻¹ m, escala
   cotidiana).
 - El **paquete de ondas** (izquierda, azul) se comprime o ensancha en vivo, y
@@ -74,8 +68,6 @@ npm run preview  # sirve la versión construida → http://localhost:4173
   - una interpretación física automática según la escala elegida.
 
 ### 3 · Las fórmulas (ayuda conceptual)
-
-![Fórmulas](capturas/cap-formulas.png)
 
 Tarjetas con las cuatro relaciones usadas y una tabla de símbolos con sus
 unidades SI, para consultar mientras se usa el laboratorio.
@@ -92,8 +84,6 @@ unidades SI, para consultar mientras se usa el laboratorio.
 
 Incertidumbre: con Δx = 10⁻¹⁰ m (tamaño atómico), Δp ≥ 5,27 × 10⁻²⁵ kg·m/s,
 que para un electrón equivale a Δv ≈ 5,8 × 10⁵ m/s.
-
-![Caso clásico: balón de fútbol](capturas/cap-balon.png)
 
 ---
 
@@ -121,7 +111,6 @@ clasificación de escala, interpretaciones y formato de notación científica.
 
 ```
 onda-lab/
-├── capturas/            # evidencia: capturas de pantalla
 ├── src/
 │   ├── physics.ts       # constantes, fórmulas e interpretaciones
 │   ├── App.tsx
