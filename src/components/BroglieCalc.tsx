@@ -50,15 +50,15 @@ function Campo({ id, label, unidad, value, onChange, placeholder }: CampoProps) 
 export default function BroglieCalc() {
   const [modo, setModo] = useState<Modo>('mv')
   const [masa, setMasa] = useState('9.109e-31')
-  const [vel, setVel] = useState('2.19e6')
+  const [vel, setVel] = useState('2190000')
   const [pDirecto, setPDirecto] = useState('1e-24')
   const [presetActivo, setPresetActivo] = useState<string | null>('electron')
 
   const aplicarPreset = (id: string) => {
     const p = PRESETS.find((x) => x.id === id)!
     setModo('mv')
-    setMasa(p.m.toExponential(3))
-    setVel(p.v.toExponential(2))
+    setMasa(String(p.m))
+    setVel(String(p.v))
     setPresetActivo(id)
   }
 
